@@ -1,0 +1,302 @@
+.main_section {
+    background-image: url(../img/prop_single_img.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 32rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+
+    .overlay {
+        width: 100%;
+        height: 32rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        opacity: 0.2;
+    }
+
+    .row {
+        position: absolute;
+        display: flex;
+        top: 12.3rem;
+
+        .col-md-12 {
+            color: white;
+            padding: 0 15px;
+        }
+
+        h1 {
+            font-size: 5rem;
+            text-transform: capitalize;
+            line-height: 1;
+        }
+
+        p {
+            font-size: 1.8rem;
+            font-family: 'Mukta Mahee', sans-serif;
+            font-weight: 100;
+        }
+
+    }
+
+    .scroll {
+        font-size: 15px;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: max-content;
+        font-family: 'Open Sans', ;
+
+        a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding-top: 45px;
+        }
+        span {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 16px;
+            height: 16px;
+            margin-left: -12px;
+            border-left: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            -webkit-animation: scrolld 2s infinite;
+            animation: scrolld 2s infinite;
+            opacity: 0;
+        }
+
+        span:nth-of-type(1) {
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+
+        span:nth-of-type(2) {
+            top: 12px;
+            -webkit-animation-delay: .15s;
+            animation-delay: .15s;
+        }
+
+        @keyframes scrolld {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+    }
+
+}
+
+.properties {
+    padding: 5rem 0;
+
+    .img_container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+
+        .img_wrapper {
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .row {
+        display: flex;
+
+        h1 {
+            margin-bottom: 1rem;
+            font-weight: 100;
+            font-size: 1.8rem;
+        }
+
+        p {
+            color: #6c757d;
+            font-size: 17px;
+            line-height: 1.7;
+            font-weight: 100;
+            font-family: 'Mukta Mahee', sans-serif;
+            margin-bottom: 1rem;
+
+            .btn_link {
+                text-decoration: none;
+                background-color: #335c89;
+                border: 1px solid #335c89;
+                border-radius: 5rem;
+                color: white;
+                padding: 0.5rem 2rem;
+                transition: 0.3s;
+                display: inline-block;
+                text-transform: capitalize;
+                font-weight: 400;
+            }
+
+            .btn_link:hover {
+                background-color: #0f3259;
+                border: 1px solid #0f3259;
+            }
+        }
+
+        .mb {
+            margin-bottom: 2rem;
+        }
+
+
+
+    }
+}
+
+.about {
+    width: 100%;
+    padding: 3rem 0;
+
+    .row {
+        display: flex;
+
+        .col-md-8 {
+            padding: 0 15px;
+        }
+        img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .col-md-4 {
+            margin-left: 6rem;
+        }
+        
+        h3 {
+            text-transform: capitalize;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 100;
+        }
+
+        p {
+            color: #6c757d;
+            font-size: 16px;
+            line-height: 1.7;
+            font-weight: 100;
+            font-family: 'Mukta Mahee', sans-serif;
+            margin-bottom: 1rem;
+
+            .btn_link {
+                text-decoration: none;
+                background-color: #335c89;
+                border: 1px solid #335c89;
+                border-radius: 5rem;
+                color: white;
+                padding: 0.5rem 2rem;
+                transition: 0.3s;
+                display: inline-block;
+                text-transform: capitalize;
+                font-weight: 400;
+            }
+
+            .btn_link:hover {
+                background-color: #0f3259;
+                border: 1px solid #0f3259;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .main_section {
+        .row {
+            top: 15rem;
+
+            .col-12 {
+                padding-left: 0;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .buttons {
+                a {
+                    display: block;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    .properties{
+        .img_container{
+            display: block;
+            .img_wrapper{
+                margin-bottom: 1rem;
+            }
+        }
+        .row{
+            display: block;
+        }
+    }
+
+    .about {
+        padding: 2rem 0;
+
+        .row {
+            display: block;
+
+            .col-12 {
+                padding: 0;
+                margin: 0;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1024px) {
+
+    .properties{
+        .img_container{
+            .img_wrapper{
+                padding: 0 15px;
+            }
+        }
+    }
+
+    .about {
+        .row {
+            display: block;
+
+            .col-12 {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                margin-bottom: 2rem;
+            }
+            p {
+                font-size: 19px;
+            }
+
+        }
+    }
+}

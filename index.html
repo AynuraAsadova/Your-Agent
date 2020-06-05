@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourAgent - Colorlib Website Template</title>
+    <link rel="stylesheet" href="sass/nav_footer.css">
+    <link rel="stylesheet" href="sass/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200&display=swap" rel="stylesheet">
+    <link rel="prefetch stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="row">
+            <div class="col-md-6 col-8">
+                <h2><a href="index.html">Your agent</a></h2>
+            </div>
+            <div class="col-md-6 col-4">
+                <button type="button" onclick="openNav()">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <nav id="hidden_menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="menu">
+                                    <ul class="menu_list">
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-12">
+                                <h3>CONTACT INFO</h3>
+                                <ul class="contact_list">
+                                    <li>98 West 21th Street, Suite 721 <br>
+                                        New York NY 10016
+                                    </li>
+                                    <li>info@yourdomain.com</li>
+                                    <li>(+1) 435 3533</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 col-12">
+                                <h3>CONNECT WITH US</h3>
+                                <ul class="contact_list">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <button class="closebtn" onclick="closeNav()">&#10005;</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1 -->
+    <section class="main_section" style="background-image: url(img/hero_1.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="main_section__typo" data-aos="fade-up">
+                <h1 class="main_section__typo__heading">
+                    I'm your realtor, get your key
+                </h1>
+                <p class="main_section__typo__text">
+                    Discover our world-class hotel & restaurant resort.
+                </p>
+                <div class="main_section__typo__button__holder">
+                    <a class="main_section__typo__button" href="javascript:void(0)">Get in touch</a>
+                    <a class="main_section__typo__button main_section__typo__button--secondary"
+                        href="javascript:void(0)" download="youragent">download</a>
+                </div>
+            </div>
+            <div class="scroll"><a href="#next_section"><span></span><span></span> Scroll Down</a></div>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="next_section" class="properties">
+        <div class="container">
+            <h2>Popular Properties</h2>
+            <div class="row">
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up">
+                    <a href="properties.html"><img src="img/img_1.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$3,450</a>
+                    </h3>
+                    <p>46 Brookflower Rd, Houston TX</p>
+                </div>
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <a href="properties.html"><img src="img/img_2.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$1,650</a>
+                    </h3>
+                    <p>2724 20th Ave N, Houston TX</p>
+                </div>
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <a href="properties.html"><img src="img/img_3.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$3,200</a>
+                    </h3>
+                    <p>16321 Lone Corral Ct, Houston TX</p>
+                </div>
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <a href="properties.html"><img src="img/img_4.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$1,200</a>
+                    </h3>
+                    <p>4029 26th Ave S, Houston TX</p>
+                </div>
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                    <a href="properties.html"><img src="img/img_1.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$3,450</a>
+                    </h3>
+                    <p>46 Brookflower Rd, Houston TX</p>
+                </div>
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="500">
+                    <a href="properties.html"><img src="img/img_2.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$1,650</a>
+                    </h3>
+                    <p>2724 20th Ave N, Houston TX</p>
+                </div>
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                    <a href="properties.html"><img src="img/img_3.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$3,200</a>
+                    </h3>
+                    <p>16321 Lone Corral Ct, Houston TX</p>
+                </div>
+
+                <div class="col-md-3 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="700">
+                    <a href="properties.html"><img src="img/img_4.jpg" alt="img"></a>
+                    <h3>
+                        <a href="properties.html">$1,200</a>
+                    </h3>
+                    <p>4029 26th Ave S, Houston TX</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section 3 -->
+    <section class="customers">
+        <div class="container">
+            <h2>Happy customers</h2>
+            <div class="carousel_container">
+                <div class="carousel_slide">
+                    <div class="carousel_item carousel_item--cloned">
+                        <img src="img/person_1.jpg" alt="person img">
+                        <p><q><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque
+                                    quo odio
+                                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores
+                                    quis,
+                                    blanditiis
+                                    laboriosam alias</em></q></p>
+                        <div class="author"><em>- John Doe</em></div>
+                    </div>
+                    <div class="carousel_item">
+                        <img src="img/person_1.jpg" alt="person img">
+                        <p><q><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque
+                                    quo odio
+                                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores
+                                    quis,
+                                    blanditiis
+                                    laboriosam alias</em></q></p>
+                        <div class="author"><em>- John Doe</em></div>
+                    </div>
+                    <div class="carousel_item">
+                        <img src="img/person_2.jpg" alt="person img">
+                        <p><q><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque
+                                    quo odio
+                                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores
+                                    quis,
+                                    blanditiis
+                                    laboriosam alias</em></q></p>
+                        <div class="author"><em>- John Doe</em></div>
+                    </div>
+                    <div class="carousel_item">
+                        <img src="img/person_3.jpg" alt="person img">
+                        <p><q><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque
+                                    quo odio
+                                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores
+                                    quis,
+                                    blanditiis
+                                    laboriosam alias</em></q></p>
+                        <div class="author"><em>- John Doe</em></div>
+                    </div>
+                    <div class="carousel_item carousel_item--cloned">
+                        <img src="img/person_1.jpg" alt="person img">
+                        <p><q><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque
+                                    quo odio
+                                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores
+                                    quis,
+                                    blanditiis
+                                    laboriosam alias</em></q></p>
+                        <div class="author"><em>- John Doe</em></div>
+                    </div>
+                </div>
+
+                <ul class="carousel_dots">
+                    <li class="slide-active">
+                        <button>1</button>
+                    </li>
+                    <li class="">
+                        <button>2</button>
+                    </li>
+                    <li class="">
+                        <button>3</button>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Section 4 -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-12">
+                    <img src="img/about_1.jpg" class="about_img" alt="">
+                </div>
+                <div class="col-md-4 col-12">
+                    <h3>About me</h3>
+                    <p>I'm John Doe a realtor agent, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+                        omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto ducimus
+                        sit quos officiis nesciunt libero, officia, aliquam doloremque totam.</p>
+                    <p>Ratione natus expedita iusto, minus cumque vitae quo culpa reiciendis aspernatur aliquam
+                        veritatis magnam non, dicta nemo inventore, nisi quas dolores. Modi laboriosam sunt aliquid rem,
+                        deserunt quis? Porro, hic.</p>
+                    <p><img src="img/signature.jpg" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="support">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <i class="fas fa-calendar-day"></i>
+                    <h3>Deal On Time</h3>
+                    <p>Saepe omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto
+                        ducimus sit quos officiis nesciunt libero</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <i class="fas fa-pen"></i>
+                    <h3>Good Reviews</h3>
+                    <p>Saepe omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto
+                        ducimus sit quos officiis nesciunt libero</p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <i class="fas fa-quote-right"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Saepe omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto
+                        ducimus sit quos officiis nesciunt libero</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section 6 -->
+    <section class="recent_posts">
+        <div class="container">
+            <div class="col-md-8 col-12" data-aos="fade-up">
+                <h3>Recent Blog Post</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio
+                    repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis,
+                    blanditiis laboriosam alias. Sed.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card">
+                        <a href="#"><img src="img/img_1.jpg" alt=""></a>
+                        <div class="card_body">
+                            <div class="date">February 26, 2018</div>
+                            <p>
+                                <a href="#">How to pick right realtor?</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <a href="#"><img src="img/img_2.jpg" alt=""></a>
+                        <div class="card_body">
+                            <div class="date">February 26, 2018</div>
+                            <p>
+                                <a href="#">How to pick right realtor?</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card">
+                        <a href="#"><img src="img/img_3.jpg" alt=""></a>
+                        <div class="card_body">
+                            <div class="date">February 26, 2018</div>
+                            <p>
+                                <a href="#">How to pick right realtor?</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <ul class="footer_list">
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">terms & conditions</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">help</a></li>
+                        <li><a href="#">rooms</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="footer_list">
+                        <li><a href="#">our location</a></li>
+                        <li><a href="#">the hosts</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">restaurant</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="footer_contact">
+                        <p class="italic">Address:</p>
+                        <p>98 West 21th Street, Suite 721 New York NY 10016</p>
+                    </div>
+                    <div class="footer_contact">
+                        <p class="italic">Phone:</p>
+                        <p>(+1) 435 3533</p>
+                    </div>
+                    <div class="footer_contact">
+                        <p class="italic">Email:</p>
+                        <p>info@yourdomain.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <p class="sign_up">Sign up for our newsletter</p>
+                    <form action="">
+                        <div class="form_group">
+                            <input type="email" placeholder="Your email...">
+                            <button type="submit">
+                                <span><i class="fas fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <div class="col-md-6 col-12">
+                    © Copyright 2019. All Rights Reserved. Carefully crafted by <a href="#">Colorlib</a>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="icons">
+                        <a href="#"><span><i class="fab fa-twitter"></i></span></a>
+                        <a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+                        <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+                        <a href="#"><span><i class="fab fa-instagram"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/scrollDown.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 1200,
+        });
+
+        // Carousel
+        var carouselSlide = document.querySelector(".carousel_slide");
+        var carouselItems = document.querySelectorAll(".carousel_item");
+        var carouselDots = document.querySelectorAll(".carousel_dots > li");
+
+
+        // Counter
+        var Item_length = carouselDots.length;
+        var size = carouselItems[0].clientWidth;
+        var progress = false; // prevent double click on arrow
+        var easeInOutExpo = "cubic-bezier(.71,.37,.22,.98)";
+        var counter = {
+            value: 1,
+            increment: function () {
+                this.setValue(this.value + 1);
+            },
+            decrement: function () {
+                this.setValue(this.value - 1);
+            },
+            setValue: function (newVal) {
+                if (this.value <= 0 || this.value >= carouselItems.length - 1 || !!progress)
+                    return;
+                if (
+                    this.value === newVal ||
+                    newVal < 0 ||
+                    newVal > carouselItems.length - 1
+                )
+                    return;
+
+                carouselDots[this.value - 1].classList.remove("slide-active");
+                this.value = newVal;
+
+                if (this.value === 0)
+                    carouselDots[Item_length - 1].classList.add("slide-active");
+                else if (this.value === carouselItems.length - 1)
+                    carouselDots[0].classList.add("slide-active");
+                else carouselDots[this.value - 1].classList.add("slide-active");
+
+                progress = true;
+                carouselSlide.style.transition = `transform 1s ${easeInOutExpo}`;
+                carouselSlide.style.transform = `translateX(${-size * this.value}px)`;
+                resetTimer();
+            }
+        };
+
+        var carousel_interval = setInterval(() => {
+            counter.increment();
+        }, 4000);
+
+        var resetTimer = function () {
+            clearInterval(carousel_interval);
+            carousel_interval = setInterval(() => {
+                counter.increment();
+            }, 4000);
+        };
+
+        carouselSlide.style.transform = `translateX(${-size * counter.value}px)`;
+
+        window.addEventListener("resize", function (e) {
+            size = carouselItems[0].clientWidth;
+            carouselSlide.style.transform = `translateX(${-size * counter.value}px)`;
+        });
+
+
+        carouselSlide.addEventListener("transitionend", function (e) {
+            carouselSlide.style.transition = "";
+            progress = false;
+
+            if (
+                carouselItems[counter.value].classList.contains("carousel_item--cloned")
+            ) {
+                if (counter.value === 0) counter.value = carouselItems.length - 3;
+                else counter.value = 1;
+
+                carouselSlide.style.transform = `translateX(${-size * counter.value}px)`;
+            }
+        });
+
+        carouselDots.forEach((dot, index) => {
+            let dot_button = dot.querySelector("button");
+
+            dot_button.addEventListener("click", function (e) {
+                counter.setValue(index + 1);
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

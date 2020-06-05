@@ -1,0 +1,206 @@
+.main_section {
+  background-image: url(../img/hero_1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 32rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0;
+}
+
+.main_section .overlay {
+  width: 100%;
+  height: 32rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.main_section .row {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 12.3rem;
+}
+
+.main_section .row .col-md-12 {
+  color: white;
+  padding: 0 15px;
+}
+
+.main_section .row h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.main_section .scroll {
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-family: "Open Sans";
+}
+
+.main_section .scroll a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact_section {
+  background-color: #335c89;
+  padding-top: 4rem;
+}
+
+.contact_section .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact_section .row .col-md-7 {
+  padding: 0 15px;
+  height: 38rem;
+}
+
+.contact_section .row form {
+  background-color: white;
+  padding: 3rem 2rem;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 100;
+  position: relative;
+  top: -10rem;
+}
+
+.contact_section .row form .form_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.contact_section .row form .form_row .col-md-6 {
+  padding: 0 15px;
+}
+
+.contact_section .row form .form_row label {
+  margin-bottom: 14px;
+  display: inline-block;
+}
+
+.contact_section .row form .form_row input {
+  width: 100%;
+  height: 3rem;
+  border: 2px solid #ced4da;
+  border-radius: 4px;
+}
+
+.contact_section .row form .form_row .col-md-12 {
+  padding: 0 15px;
+}
+
+.contact_section .row form .form_row textarea {
+  width: 100%;
+  border: 2px solid #ced4da;
+  border-radius: 4px;
+  height: 13rem;
+}
+
+.contact_section .row form .form_row input[type=submit] {
+  width: 10rem;
+  border: 1px solid #335c89;
+  border-radius: 5rem;
+  background-color: #335c89;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+.contact_section .row form .form_row input[type=submit]:hover {
+  background-color: #0f3259;
+  border: 1px solid #0f3259;
+}
+
+.contact_section .row .col-md-5 {
+  padding: 0 15px;
+}
+
+.contact_section .row .contact_text {
+  margin-left: 5rem;
+  padding: 2rem 1rem;
+}
+
+.contact_section .row .contact_text .text {
+  margin-bottom: 3rem;
+}
+
+.contact_section .row .contact_text .text .text_header {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 3px;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+.contact_section .row .contact_text .text p {
+  color: white;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 420px) {
+  .main_section .row {
+    top: 15rem;
+  }
+  .main_section .row .col-12 {
+    padding-left: 0;
+  }
+  .main_section .row h1 {
+    font-size: 2.5rem;
+  }
+  .main_section .row .buttons a {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .contact_section .row {
+    display: block;
+  }
+  .contact_section .row .col-12 {
+    padding: 0;
+  }
+  .contact_section .row form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact_section .row form .form_row {
+    display: block;
+  }
+  .contact_section .row form .form_row .col-12 {
+    margin-bottom: 1rem;
+  }
+  .contact_section .row .contact_text {
+    margin-left: 0;
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+  .contact_section .row .contact_text {
+    margin-left: 1rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
